@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">diplom</string>
+    <string-array name="dostup1">
+        <item>Пользователь</item>
+        <item>Администратор</item>
+    </string-array>
+</resources>

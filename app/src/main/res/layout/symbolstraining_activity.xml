@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/symorseLetterTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/symorseCodeEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Введите код Морзе"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:backgroundTint="@color/black"
+        android:id="@+id/sycheckButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Проверить"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/syscoreTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <Button
+            android:backgroundTint="@color/black"
+            android:id="@+id/sydotButton"
+            android:height="100dp"
+            android:width="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="."
+            android:layout_marginRight="50dp"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/sydashButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:backgroundTint="@color/black"
+            android:height="100dp"
+            android:width="100dp"
+            android:text="-"
+            android:textSize="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/syclearBtn"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:text="Очистить"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/endBtn"
+            android:backgroundTint="@color/black"
+            android:layout_gravity="center"
+            android:text="Закончить Тренировку"
+            android:layout_marginLeft="30dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

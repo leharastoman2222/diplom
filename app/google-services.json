@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "948462361729",
+    "firebase_url": "https://azbuka-morze-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "azbuka-morze",
+    "storage_bucket": "azbuka-morze.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948462361729:android:710a5effb791acb8ab8180",
+        "android_client_info": {
+          "package_name": "com.example.diplom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948462361729-fsbqmbc09qge2e4hro2s1l2g2iasm2dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb6BgNkl_atPoiX_3H1vpBOCdmDzj5Q0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948462361729-fsbqmbc09qge2e4hro2s1l2g2iasm2dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

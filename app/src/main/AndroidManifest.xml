@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Азбука Морзе"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Diplom"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ReglogActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"/>
+        <activity android:name=".MenuActivity"
+            android:exported="true"/>
+        <activity android:name=".ProfileActivity"
+            android:exported="true"/>
+        <activity android:name=".LeadersActivity"
+            android:exported="true"/>
+        <activity android:name=".TrainingActivity"
+            android:exported="true"/>
+        <activity android:name=".LessonsActivity"
+            android:exported="true"/>
+        <activity android:name=".ManualActivity"
+            android:exported="true"/>
+        <activity android:name=".AllTraningsActivity"
+            android:exported="true"/>
+        <activity android:name=".WordsTrainingActivity"
+            android:exported="true"/>
+        <activity android:name=".SentenceTrainingActivity"
+            android:exported="true"/>
+        <activity android:name=".NumberTrainingActivity"
+            android:exported="true"/>
+        <activity android:name=".SymbolsTrainingActivity"
+            android:exported="true"/>
+        <activity android:name=".ResetPasswordActivity"
+            android:exported="true"/>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+</manifest>

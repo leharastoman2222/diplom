@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:text="Регистрация"
+            android:onClick="onClick_registration"
+            android:textSize="20dp"
+            android:backgroundTint="@color/black"/>
+        <EditText
+            android:id="@+id/adminEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите код администратора"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:onClick="onClick_login"
+            android:text="Вход"
+            android:textSize="20dp"
+            android:backgroundTint="@color/black"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerdostup"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
